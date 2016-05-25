@@ -13,6 +13,8 @@ m{^(!?)(?:(SSL(?:v2|v3|v23|v2/3))|(TLSv1[12]?))$}i
 
 m{^(!?)(?:(SSL(?:v2|v3|v23|v2/3))|(TLSv1[12]?))}i
 
+* You can test sendemail with the script in this repository "test-script.sh"
+
 ## Requirements
 * apt-get install sendemail
 * apt-get install libio-socket-ssl-perl libnet-ssleay-perl
